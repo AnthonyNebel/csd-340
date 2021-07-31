@@ -1,0 +1,195 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Lora', 'PT Serif', Georgia, serif;
+    font-weight: 400;
+    background-color: #363636;
+}
+input, button {
+    font-family: 'Lora', 'PT Serif', Georgia, serif;
+    font-weight: 700;
+}
+header {
+    background-color: #363636;
+    color: #EBEBEB;
+    padding: 20px;
+    text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #EBEBEB;
+	margin-right: 25px;
+	margin-left: 25px;
+    font-weight: 700;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: Black;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+.navbar a:hover {
+	color: blue;
+}
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+#home-image {
+
+	border: 8px solid #EBEBEB;
+	padding: 0px;
+	padding-top: 20px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	color: #EBEBEB;
+	overflow: auto;
+	width: fit-content;
+	float: center;
+    font-weight: 700;
+}
+#content-pic {
+
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	overflow: auto;
+	width: fit-content;
+	float: center;
+    font-weight: 400;
+}
+.paragraph-Hbars {
+
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border: none;
+    height: 8px;
+    background-color: #EBEBEB;
+}
+.card-title {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.hobbies {
+    min-height: 250px;
+    color: #EBEBEB;
+}
+.experience {
+    min-height: 250px;
+    color: #EBEBEB;
+    margin-bottom: 30px;
+}
+#contact-header {
+
+    color: #EBEBEB;
+}
+.contact-container {
+    margin-top: 30px;
+    text-align: center;
+    display: grid;
+	padding: 10px;
+	padding-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    background-color: #EBEBEB;
+}
+.grid-columns {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    /*grid-template-columns: auto auto auto;*/
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #EBEBEB;
+}
+.card {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    margin: 10px;
+}
+.card-content {
+    padding: 2px 16px;
+    color: black;
+}
+.card:hover {
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
+}
+.full-width {
+    width: 100%;
+}
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 10%;
+}
+.form-field {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+    padding: 8px 32px;
+    color: #EBEBEB;
+}
+.input {
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #363636;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+.input:focus { 
+
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+.btn-primary {
+    background-color: #363636;
+    color: #EBEBEB;
+    border: 1px solid #363636;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn-primary:hover {
+    background-color: blue;
+    color: #EBEBEB;
+}
+footer a {
+
+    color: #EBEBEB;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+footer a:hover {
+    color: blue;
+    font-weight: 700;
+}
+
